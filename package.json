@@ -1,0 +1,40 @@
+{
+  "name": "next-js-fundamentals",
+  "version": "1.0.0",
+  "description": "Proof of concept next.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "server:dev": "node server/ssr.js",
+    "server:prod": "cross-env NODE_ENV=production node server/ssr.js",
+    "server:dev:ca": "node server/ssr-caching.js",
+    "server:prod:ca": "cross-env NODE_ENV=production node server/ssr-caching.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frantallukas10/next-js-fundamentals.git"
+  },
+  "keywords": [
+    "next.js",
+    "documentation",
+    "deployment"
+  ],
+  "author": "Ing. Lukáš Frantál <frantal.lukas10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frantallukas10/next-js-fundamentals/issues"
+  },
+  "homepage": "https://github.com/frantallukas10/next-js-fundamentals#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "cacheable-response": "^1.9.2",
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "next": "^9.1.4",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
