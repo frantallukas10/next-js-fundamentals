@@ -129,7 +129,7 @@ Static Routing is also known as non-adaptive routing which doesn’t change rout
 
 ## Basic server setup
 
-[./server/ssr.js](./server/ssr.js)<br>
+[./server/ssr-caching.js](./server/ssr-caching.js)<br>
 [./server/ssr-catching.js](./server/catching.js)<br>
 
 ## Server side rendering vs Client side rendering</br>
